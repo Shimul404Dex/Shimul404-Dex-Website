@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shimul404 Dex Custom Font</title>
+
+  <style>
+    /* কাস্টম ফন্ট লোড */
+    @font-face {
+      font-family: 'Shimul404Dex';
+      src: url('https://shimul404dex.github.io/Shimul404-Dex-Website/WebFont/Shimul404Dex.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    /* গ্লোবাল ফন্ট ভ্যারিয়েবল */
+    :root {
+      --font-global: 'Shimul404Dex', monospace;
+    }
+
+    /* সব জায়গায় ফন্ট প্রয়োগ */
+    *,
+    body, html, h1, h2, h3, h4, h5, h6,
+    p, a, span, div, input, textarea,
+    code, pre, button, b, strong, em,
+    i, label, section, article, nav {
+      font-family: var(--font-global) !important;
+    }
+
+    body {
+      background: #fff;
+      padding: 20px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Shimul404 Dex কাস্টম ফন্ট টেস্ট</h1>
+  <p>
+    এই লেখা তোমার GitHub Pages থেকে লোড হওয়া কাস্টম ফন্ট দিয়ে দেখানো হচ্ছে।
+    এখন তুমি যেকোনো ওয়েবসাইট বা Blogger পেজে এই কোড দিয়ে ফন্ট ব্যবহার করতে পারবে।
+  </p>
+</body>
+</html>
