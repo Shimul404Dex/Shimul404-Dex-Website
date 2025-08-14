@@ -4,5 +4,5 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url(../WebFont/Fonts/FWWC2023-Regular.woff) format("woff");
+  src: url('https://raw.githubusercontent.com/Shimul404Dex/Shimul404-Dex-Website/raw/refs/heads/main/WebFont/Fonts/FWWC2023-Regular.woff') format("woff");
 }
