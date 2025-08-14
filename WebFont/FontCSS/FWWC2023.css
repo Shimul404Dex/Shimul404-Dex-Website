@@ -1,8 +1,8 @@
-/* Srabondhara Font Face */
+/* FWWC2023 Font Face */
 @font-face {
-  font-family: "FN Srabondhara Unicode";
+  font-family: "FWWC2023-Regular";
+  font-weight: normal;
   font-style: normal;
-  font-weight: 500;
   font-display: swap;
-  src: url(../WebFont/Fonts/FN Srabondhara Unicode.woff) format("woff");
+  src: url(../WebFont/Fonts/FWWC2023-Regular.woff) format("woff");
 }
